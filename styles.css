@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+background-color: rgb(46, 177, 206);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.form-content {
+width: 100%;
+max-width: 450px;
+background-color: beige;
+padding: 50px 60px 70px;
+text-align: center;
+border-radius: 25px;
+}
+
+.form-content h1 {
+font-size: 30px;
+margin-bottom: 60px;
+color: rgb(6, 109, 32);
+position: relative;
+}
+
+
+.input-field{
+    background-color:rgb(6, 109, 32);
+    margin: 15px 0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+    color: rgb(46, 177, 206);
+}
+
+input::placeholder{
+    color: blanchedalmond;
+}
+
+.input-field i {
+    margin-left: 15px;
+    color: rgb(212, 130, 15);
+}
+
+text p {
+    background-color: rgb(46, 177, 206);
+    color: white;
+    text-align: left;
+    font-size: 13px;
+}
+text p a {
+    background-color:  rgb(212, 130, 15);
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+ justify-content: flex-start;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: rgb(17, 82, 17);
+    margin-top: 10%;
+     color: antiquewhite;
+    height: 40px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+cursor: pointer;
+transition: background 1s;
+}
+
+.input-group {
+    height: 250px;
+}
+ 
+.btn-field button.disable {
+
+    background-color: rgb(212, 130, 15);
+    color:bisque;
+    margin-top: 10%;
+}
+
+
+
+
+
