@@ -7,7 +7,7 @@ const productos =
         desc: "Repuesto para Mochila Capea",
         precio: 3200,
         talle: "L",
-        imagen: 'images/descarga.webp',
+        imagen: 'images/Descarga.webp',
         cantidad:1
     },
 
@@ -75,7 +75,7 @@ const productos =
         desc: "De vidrio sobre bañera x 0.80",
         precio: 28000,
         talle: "M",
-        imagen: "../images/mampara.webp",
+        imagen: 'images/mampara.webp',
         cantidad: 1
 
       };
