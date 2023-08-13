@@ -2,12 +2,12 @@ const productos =
 [
     {
         id: 1,
-        nombre: "Descarga",
+        nombre: "descarga",
         tipo: "descarga",
         desc: "Repuesto para Mochila Capea",
         precio: 3200,
         talle: "L",
-        imagen: '../images/Descarga.webp',
+        imagen: '../images/descarga.webp',
         cantidad:1
     },
 
