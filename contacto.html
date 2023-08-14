@@ -11,6 +11,50 @@
 </header>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos quia, assumenda mollitia dicta aut. Recusandae quae in soluta earum reiciendis! Neque ducimus hic officia officiis necessitatibus illo incidunt nihil.
 </p>
+<main>
+
+    <article class="encabezado__formulario">
+        <h2>Formulario de Contacto</h2>
+    </article>
+
+    <form action="form.php" method="POST" class="speaker-form">
+        <div class="form-row">
+            <label for="nombre-usuario">Nombre y apellido</label>
+            <input type="text" id="nombre-usuario" name="Nombreyapellido" placeholder="Nombre y apellido" required>
+        </div>
+
+        <div class="form-row">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+        </div>
+
+        <fieldset class="legacy-form-row">
+            <legend>Categoría</legend>
+            <input type="radio" name="categoria" id="profesional-consultante">
+            <label for="profesional-consultante" class="radio-label">Porfesional</label>
+            <input type="radio" name="categoria" id="profesional-consultante">
+            <label for="profesional-consultante2" class="radio-label">Paciente</label>
+        </fieldset>
+
+        <div class="form-row">
+            <label for="asunto">Asunto</label>
+            <input type="Asunto" id="asunto" name="Asunto" placeholder="Asunto" required>
+        </div>
+
+        <div class="form-row">
+            <label for="mensaje"></label>
+            <textarea name="texto" id="mensaje" name="Mensaje" cols="30" rows="10" placeholder="Mensaje"
+                required></textarea>
+        </div>
+        <div class="form-button">
+            <label for="enviar"></label>
+            <input type="submit" id="enviar" name="Enviar" value="Enviar">
+        </div>
+
+
+    </form>
+
+</main>
     <script src="contacto.js"></script>
 </body>
 </html>
