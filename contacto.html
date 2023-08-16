@@ -3,20 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<link rel="stylesheet" href="styles.css">
+    <title>Contacto</title>
 </head>
 <body>
-    <header>
-    <h1>Hola!!!!!!!!</h1>
-</header>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos quia, assumenda mollitia dicta aut. Recusandae quae in soluta earum reiciendis! Neque ducimus hic officia officiis necessitatibus illo incidunt nihil.
-</p>
 <main>
-
-    <article class="encabezado__formulario">
+<div class="containerForm">
+    <div class="contactForm">
         <h2>Formulario de Contacto</h2>
-    </article>
-    <form id="contactForm">
+    <form class="form__contact" id="contactForm">
         <label for="nombre">Nombre y Apellido:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
     
@@ -31,10 +26,13 @@
     
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje"></textarea><br><br>
-    
+    <div class="btn-field-contact">
         <button type="submit">Enviar</button>
+        </div>
       </form>
-
+        </div>
+          </div>
+</div>    
 </main>
     <script src="contacto.js"></script>
 </body>

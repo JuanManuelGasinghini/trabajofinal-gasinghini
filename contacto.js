@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
         mensaje
       };
   
-      // Guardar los datos en el almacenamiento local (localStorage)
+  
       saveFormData(formData);
   
-      // Limpiar el formulario
+
       form.reset();
     });
   
