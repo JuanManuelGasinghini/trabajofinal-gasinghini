@@ -32,3 +32,29 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
   
+
+  const formPromise = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        let formDataArray = JSON.parse(localStorage.getItem("formData")) || [];
+        resolve(formDataArray);
+      }, 5000);
+    });
+  }
+  
+  formPromise()
+    .then(formData => console.log(formData));
+  
+
+  /*const form = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(formData)
+      }, 5000)
+    })
+  }
+
+  form()
+  .then(formData => console.log(formData))
+
+*/
