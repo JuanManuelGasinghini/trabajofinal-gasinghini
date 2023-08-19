@@ -195,7 +195,7 @@ display: flex;
 justify-content: center;
 background-color: rgb(46, 177, 206);
 }
-.contactForm{
+.Form{
   display: flex;
   flex-direction: column;
   background-color: beige;
@@ -203,7 +203,7 @@ background-color: rgb(46, 177, 206);
    border-radius: 2%;
    margin: 1%;
   } 
-.contactForm h2 {
+.Form h2 {
   display: flex;
   flex-direction: column;
   font-size: 30px;
