@@ -46,15 +46,3 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(formData => console.log(formData));
   
 
-  /*const form = () => {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(formData)
-      }, 5000)
-    })
-  }
-
-  form()
-  .then(formData => console.log(formData))
-
-*/

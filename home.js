@@ -17,3 +17,4 @@ const pintarProductos = (data) => {
       contenedor.appendChild(div);
     });
   };
+  

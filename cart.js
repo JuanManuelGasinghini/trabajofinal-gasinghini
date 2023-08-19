@@ -97,3 +97,16 @@ const cargarCarrito = () => {
     actualizarTotalesCarrito(carrito)
   }
 }
+const botonConfirmarCompra = document.getElementById("confirmar-compra");
+
+botonConfirmarCompra.addEventListener('click', () => {
+
+  console.log(carrito);
+
+  carrito = [];
+  pintarCarrito(carrito);
+  actualizarTotalesCarrito(carrito);
+
+ });
+
+ 

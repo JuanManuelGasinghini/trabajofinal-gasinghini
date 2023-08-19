@@ -21,3 +21,4 @@ modalCarrito.addEventListener('click', (e) => {
         eliminarProductoCarrito(e.target.value)
     }
 })
+
